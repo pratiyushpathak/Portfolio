@@ -1,0 +1,101 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@300&family=Roboto:wght@500&family=Sacramento&family=Shadows+Into+Light&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@300&family=Reenie+Beanie&family=Roboto:wght@500&family=Sacramento&family=Shadows+Into+Light&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cutive+Mono&family=Poppins:wght@300&family=Reenie+Beanie&family=Roboto:wght@500&family=Sacramento&family=Shadows+Into+Light&display=swap');
+*{
+    margin:0;
+    padding:0
+}
+
+.sidebar{
+    background-color: rgb(186, 186, 186);
+    width: 10vw;
+    font-family:'Roboto', sans-serif; ;
+    height: 120vh;
+    
+}
+
+.sidebar nav{
+    padding:40px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 15px;
+    padding: 25px 0;
+}
+.main{
+    /* background-color: yellow; */
+    width:90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /* background-color: green; */
+    height: 58vh;
+    width:80vw;
+    margin: 160px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.desInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 65px;
+    font-family: 'Reenie Beanie', cursive;
+}
+.name{
+    font-size: 59px;
+    font-weight: bold;
+    /* font-family:'Shadows Into Light', cursive; */
+    /* font-family: 'Allura', cursive; */
+    font-family: 'Cutive Mono', monospace;
+    
+
+
+}
+.about{
+    font-size: 30px;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: lighter;
+}
+
+.moreabout{
+    margin-top: 15px;
+    font-size: 25px;
+    font-family:'Cutive Mono', monospace ;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 32px;
+    color:white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 10 px;
+    cursor: pointer;
+    border-color: white;
+    
+      
+}
+
+.buttons button:hover{
+    background-color: white;
+    color:dodgerblue;
+}
+
+.desPic img{
+    height:58vh;
+    
+}
